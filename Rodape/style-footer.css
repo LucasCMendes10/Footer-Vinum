@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.input-email {
+    display: flex;
+}
+
+.input-email button {
+    margin-left: 15px;
+    color: white;
+    background-color: #763A5A;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.input-email input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding-left: 8px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    border-top: solid rgba(0, 0, 0, 0.5);
+    width: 700px;
+    padding: 60px 0;
+}
+
+.fique-dentro h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+
+.footer {
+    background-color: #763A5A;
+    color: white;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.footer h6 {
+    font-weight: lighter;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.footer2 h3 {
+    font-weight: lighter;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 90px;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.footer1 .bloco img {
+    height: 50px;
+    margin-right: 8px;
+}
+
+.footer2 .bloco img {
+    margin-right: 10px;
+    height: 80px;
+}
+
+h4,
+h5,
+h3,
+h6 {
+    margin: 0;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+    border-top: solid rgb(255, 255, 255);
+    width: 800px;
+}
+
+.pai-linha {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+}
+
+.redes .imagens img {
+    height: 30px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.redes h5 {
+    align-self: flex-end;
+}
+
+.titulo-footer {
+    margin-bottom: 5px;
+}
